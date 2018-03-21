@@ -2,6 +2,13 @@
 
 A dry structure to build Corona HTML5 plugins.
 
+## Overview
+
+ - Plugin files must reside in the ___root___ directory.
+ - Plugin files are compiled with the HTML5 build.
+ - JS file must be named `<myplugin>_js.js` to work.
+ - Lua file shoud be named `<myplugin>.lua`.
+
 ## Direct Communication
 
 __JavaScript__
@@ -61,8 +68,8 @@ myplugin.echo("Hello")
  - Number
  - String
  - Boolean
- - Array
- - Object
+ - Array (Table)
+ - Table
 
  ### JS to Lua
 
