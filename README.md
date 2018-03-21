@@ -15,6 +15,8 @@ _Replace <myplugin\> with your plugin name._
 
 __JavaScript__
 
+_Window property must be named `<myplugin>_js`. Replace <myplugin\> with your plugin name._
+
 ```js
 window.myplugin_js = 
 {
@@ -37,6 +39,8 @@ print(result) --> Hello
 ## Event Listeners
 
 __JavaScript__
+
+_Window property must be named `<myplugin>_js`. Replace <myplugin\> with your plugin name._
 
 ```js
 window.myplugin_js = 
