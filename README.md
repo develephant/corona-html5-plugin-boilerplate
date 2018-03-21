@@ -7,7 +7,9 @@ A dry structure to build Corona HTML5 plugins.
  - Plugin files must reside in the ___root___ directory.
  - Plugin files are compiled with the HTML5 build.
  - JS file must be named `<myplugin>_js.js` to work.
- - Lua file shoud be named `<myplugin>.lua`.
+ - Lua file msut be named `<myplugin>.lua` to work.
+
+_Replace <myplugin\> with your plugin name._
 
 ## Direct Communication
 
