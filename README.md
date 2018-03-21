@@ -53,3 +53,21 @@ myplugin.addEventListener(echoListener)
 
 myplugin.echo("Hello")
 ```
+
+## Data Types
+
+### Lua to JS
+
+ - Number
+ - String
+ - Boolean
+ - Array
+ - Object
+
+ ### JS to Lua
+
+ - Number
+ - String
+ - Boolean
+ - Array
+ - Object
