@@ -6,4 +6,6 @@
 
 local myplugin = require("myplugin")
 
-myplugin.log("myplugin is cool!")
+local result = myplugin.echo("myplugin is cool!")
+
+print(result)

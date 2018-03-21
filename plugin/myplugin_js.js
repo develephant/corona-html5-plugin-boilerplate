@@ -6,8 +6,8 @@
 // JS plugin is an child object of 'window'
 window.myplugin_js = 
 {
-  log: function(str) {
-    console.log(str)
+  echo: function(str) {
+    return str
   }
 
   //more functions here
