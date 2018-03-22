@@ -97,7 +97,7 @@ myplugin.echo("Hello")
 
 ## create.sh
 
-The `create.sh` will only work on Mac OS (Windows submission welcome 😉 ). It creates a plugin directory and replaces all the `myplugin` references with the specified plugin name.
+The `create.sh` tool will only work on Mac OS (Windows submission welcome 😉). It creates a plugin directory and replaces all the `myplugin` references with the specified plugin name.
 
 ⚠️ _NOTE: Use this tool at your own risk._
 
@@ -109,7 +109,7 @@ Using the terminal, make sure you are in the root __corona-html5-plugin-boilerpl
 ./create.sh <plugin_name> <plugin_directory_path>
 ```
 
-The directory should not exists, it will be created for you.
+The directory should not exist, it will be created for you.
 
 __Example__
 
