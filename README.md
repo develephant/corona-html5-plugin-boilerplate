@@ -8,6 +8,7 @@ A dry structure to build Corona HTML5 plugins.
  - Plugin files are compiled with the HTML5 build.
  - JS file must be named `<myplugin>_js.js` to work.
  - Lua file msut be named `<myplugin>.lua` to work.
+ - References to `myplugin` inside files must be changed to your plugin name.
 
 _Replace <myplugin\> with your plugin name._
 
