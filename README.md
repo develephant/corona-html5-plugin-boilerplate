@@ -90,3 +90,7 @@ myplugin.echo("Hello")
  - Boolean
  - Array (json) -> Table (array)
  - Object (json) -> Table
+
+ ## Notes
+
+  - To see Lua `print` output you must run the _index-debug.html_.
