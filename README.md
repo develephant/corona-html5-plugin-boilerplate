@@ -97,7 +97,9 @@ myplugin.echo("Hello")
 
 ## create.sh
 
-The `create.sh` tool will only work on Mac OS (Windows submission welcome 😉). It creates a plugin directory and replaces all the `myplugin` references with the specified plugin name.
+The `create.sh` tool will only work on Mac OS (Windows submission welcome 😉). 
+
+The tool creates a plugin directory and replaces all the `myplugin` file names and references with the specified plugin name.
 
 ⚠️ _NOTE: Use this tool at your own risk._
 
