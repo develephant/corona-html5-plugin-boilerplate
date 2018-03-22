@@ -1,6 +1,6 @@
 # ![logo](logo.png) Corona HTML5 Plugin Boilerplate
 
-A dry structure to build Corona HTML5 plugins.
+A bare-bones boilerplate to build Corona HTML5 plugins.
 
 ## Overview
 
