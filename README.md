@@ -80,13 +80,13 @@ myplugin.echo("Hello")
  - Number
  - String
  - Boolean
- - Array (Table)
- - Table
+ - Array (table) -> Json
+ - Table -> Json
 
  ### JS to Lua
 
  - Number
  - String
  - Boolean
- - Array
- - Object
+ - Array (json) -> Table (array)
+ - Object (json) -> Table
