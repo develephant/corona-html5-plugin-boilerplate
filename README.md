@@ -40,7 +40,7 @@ local result = myplugin.echo("Hello")
 print(result) --> Hello
 ```
 
-## Event Listeners
+## Event Driven
 
 __JavaScript__ (dispatcher)
 
