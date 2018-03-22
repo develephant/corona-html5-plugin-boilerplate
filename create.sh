@@ -1,5 +1,10 @@
 #!/bin/sh
 
+###############################################################################
+## Corona HTML5 Plugin Starter Tool
+## (c)2016 C. Byerley (develephant)
+###############################################################################
+
 PLUGIN_NAME=$1
 PLUGIN_DIR=$2
 
@@ -36,3 +41,5 @@ sed -i '' "s/$TPL_NAME/$PLUGIN_NAME/g" ${PLUGIN_DIR}/${PLUGIN_NAME}.lua
 sed -i '' "s/$TPL_NAME/$PLUGIN_NAME/g" ${PLUGIN_DIR}/main.lua
 
 echo "Corona HTML5 Plugin is ready at ${PLUGIN_DIR}"
+
+exit 0
