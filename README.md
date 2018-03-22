@@ -30,6 +30,8 @@ window.myplugin_js =
 
 __Lua__
 
+_Replace references to `myplugin` with your plugin name._
+
 ```lua
 local myplugin = require("myplugin")
 
@@ -54,6 +56,8 @@ window.myplugin_js =
 ```
 
 __Lua__
+
+_Replace references to `myplugin` with your plugin name._
 
 ```lua
 local myplugin = require("myplugin")
