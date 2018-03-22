@@ -99,7 +99,7 @@ myplugin.echo("Hello")
 
 The `create.sh` will only work on Mac OS. It creates a plugin directory and replaces all the `myplugin` references with the specified plugin name.
 
-_NOTE: Use this tool at your own risk._
+⚠️ _NOTE: Use this tool at your own risk._
 
 ### Usage
 
