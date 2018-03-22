@@ -73,7 +73,7 @@ myplugin.addEventListener(echoListener)
 myplugin.echo("Hello")
 ```
 
-## Data Types
+## Parameter Types
 
 ### Lua to JS
 
