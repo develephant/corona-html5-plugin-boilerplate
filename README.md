@@ -1,6 +1,6 @@
 # ![logo](logo.png) Corona HTML5 Plugin Boilerplate
 
-A bare-bones boilerplate to build Corona HTML5 plugins.
+__A bare-bones boilerplate to build Corona HTML5 plugins.__
 
 ## Overview
 
@@ -50,7 +50,7 @@ _Window property must be named `<myplugin>_js`. Replace <myplugin\> with your pl
 window.myplugin_js = 
 {
   echo: function(str) {
-    this.dispatchEvent({name: 'echo', value: str})
+    this.dispatchEvent({name: 'echo', data: { value: str }})
   }
 }
 ```
@@ -63,9 +63,7 @@ _Replace references to `myplugin` with your plugin name._
 local myplugin = require("myplugin")
 
 local function echoListener(event)
-  event = json.decode(event)
-
-  print(event.value) --> Hello
+  print(event.data.value) --> Hello
 end
 
 myplugin.addEventListener(echoListener)
