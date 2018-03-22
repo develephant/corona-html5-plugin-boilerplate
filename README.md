@@ -91,7 +91,7 @@ myplugin.echo("Hello")
 
  ## Notes
 
-  - To see Lua `print` output you must run the _index-debug.html_ of the HTML5 build.
+  - To see Lua `print` output you must run the _index-debug.html_ of the HTML5 build (or use [this](https://github.com/develephant/corona-html5-console-plugin)).
 
 ## create.sh
 
