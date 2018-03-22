@@ -42,7 +42,7 @@ print(result) --> Hello
 
 ## Event Listeners
 
-__JavaScript__
+__JavaScript__ (dispatcher)
 
 _Window property must be named `<myplugin>_js`. Replace <myplugin\> with your plugin name._
 
@@ -55,7 +55,7 @@ window.myplugin_js =
 }
 ```
 
-__Lua__
+__Lua__ (event listener)
 
 _Replace references to `myplugin` with your plugin name._
 
