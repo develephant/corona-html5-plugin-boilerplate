@@ -106,10 +106,10 @@ The `create.sh` will only work on Mac OS (Windows submission welcome 😉 ). It 
 Using the terminal, make sure you are in the root __corona-html5-plugin-boilerplate__ directory and run:
 
 ```sh
-./create.sh <name_of_plugin> <new_plugin_directory_path>
+./create.sh <plugin_name> <plugin_directory_path>
 ```
 
-The directory will be created for you.
+The directory should not exists, it will be created for you.
 
 __Example__
 
