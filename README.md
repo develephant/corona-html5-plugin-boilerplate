@@ -73,24 +73,48 @@ myplugin.addEventListener(echoListener)
 myplugin.echo("Hello")
 ```
 
-## Parameter Types
+## Type Conversion
 
 ### Lua to JS
 
  - Number
  - String
  - Boolean
- - Array (table) -> Json
- - Table -> Json
+ - Array (table) -> Array
+ - Table -> Object
 
  ### JS to Lua
 
  - Number
  - String
  - Boolean
- - Array (json) -> Table (array)
- - Object (json) -> Table
+ - Array -> Table (array)
+ - Object -> Table
 
  ## Notes
 
   - To see Lua `print` output you must run the _index-debug.html_ of the HTML5 build.
+
+## create.sh
+
+The `create.sh` will only work on Mac OS. It creates a plugin directory and replaces all the `myplugin` references with the specified plugin name.
+
+_NOTE: Use this tool at your own risk._
+
+### Usage
+
+Using the terminal, make sure you are in the root __corona-html5-plugin-boilerplate__ directory and run:
+
+```sh
+./create.sh <name_of_plugin> <new_plugin_directory_path>
+```
+
+The directory will be created for you.
+
+__Example__
+
+```sh
+./create.sh show_alert ~/Desktop/show_alert
+```
+
+_Do not use dashes in your HTML5 plugin names._
