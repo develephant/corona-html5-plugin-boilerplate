@@ -23,7 +23,7 @@ if [ -e $PLUGIN_DIR ];then
   exit 1
 fi
 
-echo "Creating Coronium HTML5 Plugin ${PLUGIN_NAME}..."
+echo "Creating Corona HTML5 Plugin ${PLUGIN_NAME}..."
 
 # create directory
 mkdir -p $PLUGIN_DIR
