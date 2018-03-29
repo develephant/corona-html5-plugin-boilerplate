@@ -66,7 +66,7 @@ local function echoListener(event)
   print(event.data.value) --> Hello
 end
 
-myplugin.addEventListener(echoListener)
+myplugin.addEventListener('echo', echoListener)
 
 myplugin.echo("Hello")
 ```
